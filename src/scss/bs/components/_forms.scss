@@ -1,0 +1,124 @@
+.form-control{
+    box-shadow: 0px 0px 6px 0px rgba(159, 172, 248, 0.135);
+    background-color: $own_blue1;
+    transition: width .2s ease-in-out;
+    color: $light;
+    border: 0;
+
+    @include media-breakpoint-up(lg) {
+        &.form-control-lg{
+            padding: $inpu-lg-padding-y $input-padding-x;
+
+            &:focus {
+                width: 150px;
+            }
+        }
+    }
+
+}
+
+.form-control:focus {
+    border-color: $input-focus-border-color;
+    background-color: $own_blue;
+    color: $gray-400;
+
+}
+
+.form-check-input {
+    &.round-check{
+        &[type="checkbox"] {
+            @include border-radius($form-check-radio-border-radius);
+          }
+    }
+}
+
+.search-bar {
+    .form-control {
+        width: 280px;
+        background-color: $own_blue1;
+
+        @include media-breakpoint-down(sm) {
+            width: 120px;
+
+            &:focus {
+                width: 150px;
+            }
+        }
+    }
+}
+
+.input-group {
+    border: 1px;
+    border-style: solid;
+    border-color: $glassy2;
+    .form-control:focus {
+        background-color: $own_blue1;
+        border-color: $glassy;
+
+        & + .input-group-text {
+            border: 1px;
+            border-style: solid;
+            border-color: $glassy2;
+        }
+    }
+}
+
+.focused {
+
+    .form-control {
+        border-color: $input-focus-border-color;
+        background-color: $own_blue;
+    }
+}
+
+.form-switch {
+    padding-left: $form-switch-padding-start;
+  
+    .form-check-input {
+        height: 1.275em;
+    }
+}
+
+.form-select {
+    background-color: rgba(173, 172, 173, 0.1);
+    box-shadow: 0px 0px 6px 0px rgba(159, 172, 248, 0.135);
+    border-color: $own_blue;
+    color: $light;
+    background-image: url("data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%271 0 16 14%27><path fill=%27none%27 stroke=%27%23999999%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27M2 5l6 6 6-6%27/></svg>");
+    .form-select-lg{
+        padding: $form-select-padding-y ($form-select-padding-x + $form-select-indicator-padding) $form-select-padding-y $form-select-padding-x;
+    }
+    &:hover{
+        background-color: rgba(173, 172, 173, 0.25);
+
+    }
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(.65);
+}
+//Add File Alternative Style
+
+.file-field input[type="file"] {
+    max-width: 230px;
+    position: absolute;
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    padding-bottom: 30px;
+    color: green !important;
+
+}
+.file-field span {
+    cursor: pointer;
+}
+.file-field button {
+    background-color: gold !important;
+}
+
+.datepicker-dropdown {
+    z-index: 9999;
+}
+
+.form-label {
+    color: $gray-600
+}

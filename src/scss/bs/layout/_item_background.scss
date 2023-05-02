@@ -1,0 +1,70 @@
+.own_blue{
+    background-color: $own_blue4;
+}
+
+.own_blue1{
+    background-color: $own_blue1;
+}
+
+.own_blue2{
+    background-color: $own_blue2;
+}
+
+.own_blue3{
+    background-color: $own_blue3;
+}
+
+.own_semidark{
+    background-color: $own_semidark;
+}
+
+.notifications {
+    color: $light;
+}
+.notifications:hover {
+    background-color: #0e112282;
+}
+
+.card_grow {
+    transition: all .2s ease-in-out;
+}
+    
+.card_grow:hover { 
+    transform: scale(1.05) !important;
+    box-shadow:  0px 0px 18px 2px rgba(0, 0, 0, 0.453);
+}
+
+.card_grow-sm {
+    transition: all .2s ease-in-out;
+}
+    
+.card_grow-sm:hover { 
+    transform: scale(1.02) !important;
+    box-shadow:  0px 0px 18px 1px rgba(0, 0, 0, 0.353);
+}
+
+.card_grow-xs {
+    transition: all .2s ease-in-out;
+}
+    
+.card_grow-xs:hover { 
+    transform: scale(1.01) !important;
+    box-shadow:  0px 0px 18px 0px rgba(0, 0, 0, 0.253);
+}
+
+.card_grow-xxs {
+    transition: all .2s ease-in-out;
+}
+    
+.card_grow-xxs:hover { 
+    transform: scale(1.002) !important;
+    box-shadow:  0px 0px 8px 0px rgba(0, 0, 0, 0.253);
+}
+
+.table_row {
+    background-color: transparent;
+}
+
+.table_row:hover {
+    background-color: $glassy2;
+}

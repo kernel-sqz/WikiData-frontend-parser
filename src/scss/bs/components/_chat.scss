@@ -1,0 +1,49 @@
+.bootstrap_chat {
+    min-height: 100vh;
+  }
+  
+.messages-box {
+    position: relative;
+    min-height: 780px;
+    max-height: 780px;
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    height: 93%;
+    overflow-y: scroll;
+}
+
+.chat-button {
+  justify-content: center;
+  height: 100%;
+}
+
+.user-box {
+  position: relative;
+  min-height: 200px;
+  max-height: 200px;
+  border-color: rgba(207, 207, 207, 0.571) !important;
+  border-width: 0px 1px 0px 0px !important;
+  cursor: pointer;
+  overflow-y: scroll;
+}
+
+.message-instance {
+  position: relative;
+  min-height: 80px;
+  max-height: 80px !important;
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  border-color: rgba(207, 207, 207, 0.725) !important;
+
+}
+.message-instance :hover {
+  background-color: rgba(255, 255, 255, 0.817);
+  color: black !important;
+}
+
+.search-user {
+  margin-top: 100%;
+  position: relative;
+  bottom: 0,
+
+}

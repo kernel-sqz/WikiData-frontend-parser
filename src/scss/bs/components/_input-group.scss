@@ -1,0 +1,90 @@
+/**
+ * = Input groups
+ */
+
+.input-group {
+	border-radius: $input-border-radius;
+	transition: $transition-base;
+	background-color: $own_blue1;
+
+
+	.form-control {
+		box-shadow: none;
+
+		&:not(:first-child) {
+		    	border-left: 0;
+		    	padding-left: 0;
+		}
+		&:not(:last-child) {
+			border-right: 0;
+			padding-right: 0;
+		}
+		&:focus {
+			box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.253);
+			background-color: $own_blue;
+		}
+	}
+}
+
+.input-group-text {
+	font-size: $font-size-sm;
+	transition: $input-transition;
+	background-color: $own_blue1;
+	border: 0;
+}
+
+
+
+.input-group-prepend {
+	margin-right: -2px;
+}
+
+// .focus class is applied dinamycally from theme.js
+
+.focused {
+
+	.input-group-text {
+	    	color: $input-group-addon-focus-color;
+	    	background-color: $own_blue !important;
+	}
+
+	.input-group-shadow{
+		box-shadow:$shadow-input-focus;
+	}
+}
+
+input[type=text],[type=number],[type=date],[type=email]{
+    background-color: rgba(173, 172, 173, 0.15);
+
+	&:focus{
+		background-color: rgba(173, 172, 173, 0.25);
+
+	}
+	&:active{
+		background-color: rgba(173, 172, 173, 0.25);
+
+	}
+	&::placeholder{
+		color: $gray-600;
+		font-style: italic;
+	}
+
+}
+
+
+select{
+    background-color: rgba(173, 172, 173, 0.15);
+
+}
+select:focus:active{
+
+	background-color: rgba(173, 172, 173, 0.25);
+
+	
+}
+
+.search-bar{
+	background-color: $own_blue1 !important;
+	color: $light !important;
+
+}

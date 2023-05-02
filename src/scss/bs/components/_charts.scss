@@ -1,0 +1,112 @@
+.ct-bar {
+    stroke-linecap: round;
+    stroke-width: 15px;
+}
+.ct-label {
+    fill: $white;
+    color: $white;
+    font-size: 0.8rem;
+    margin-top: 6px;
+    font-weight: $font-weight-bold;
+}
+
+.ct-label-md {
+    fill: $white;
+    color: $white;
+    font-size: 1rem;
+    margin-top: 15px;
+    font-weight: $font-weight-bold;
+}
+.ct-label-line {
+    fill: $white;
+    color: $white;
+    font-size: 1.3rem;
+    margin-top: 15px;
+    font-weight: $font-weight-bold;
+}
+
+.ct-slice-pie {
+    stroke: $white;
+    stroke-width: 3px;
+}
+
+.ct-chart-donut .ct-series {
+    stroke: $white;
+    stroke-width: 3px;
+}
+
+.ct-chart-pie .ct-label, .ct-chart-donut .ct-label {
+    font-size: 0.75rem;
+    font-weight: $font-weight-bold;
+}
+
+.small-chart{
+    margin-left:-1rem;
+}
+.ct-line {
+    color: #ffffff;
+    font-size: $font-size-base;
+    font-weight: $font-weight-bold;
+}
+//Label color Fix for pie chart
+
+.ct-chart-pie .ct-label, .ct-chart-donut .ct-label {
+    color: #ffffff;
+    fill: #ffffff;
+    font-size: $font-size-base;
+    font-weight: $font-weight-bold;
+}
+.ct-series-a{
+    .ct-grid {
+        stroke: $white;
+        stroke-width: 1px;
+        stroke-dasharray: 0.5px;
+    }
+    .ct-label.ct-horizontal.ct-end {
+        fill: $bg-gradient;
+
+        margin-left:-9px;
+        margin-top:10px;
+        color: $white;      
+    }
+}
+
+.ct-series-g{
+    .ct-grid {
+        stroke: $white;
+        stroke-width: 1px;
+        stroke-dasharray: 0.5px;
+    }
+    .ct-label.ct-horizontal.ct-end {
+        margin-left:-9px;
+        margin-top:10px;
+        color: $white;      
+    }
+}
+
+.ct-series-h{
+    .ct-grid {
+        stroke: $white;
+        stroke-width: 1px;
+        stroke-dasharray: 0.5px;
+    }
+    .ct-label.ct-horizontal.ct-end {
+        
+        margin-left:-9px;
+        margin-top:10px;
+        color: $white;      
+    }
+}
+
+.ct-series-q{
+    .ct-grid {
+        stroke: $white;
+        stroke-width: 1px;
+        stroke-dasharray: 0.5px;
+    }
+    .ct-label.ct-horizontal.ct-end {
+        margin-left:-9px;
+        margin-top:10px;
+        color: $white;      
+    }
+}
