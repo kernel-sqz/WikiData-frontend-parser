@@ -8,7 +8,6 @@ export const InfoCard = () => {
     requests: "2.29",
     unidecode: "1.3.6",
     "django-cors-headers": "3.14",
-    pillow: "9.5",
     "@fortawesome/fontawesome-svg-core": "6.1.1",
     "@fortawesome/free-brands-svg-icons": "6.1.1",
     "@fortawesome/free-regular-svg-icons": "6.1.1",
