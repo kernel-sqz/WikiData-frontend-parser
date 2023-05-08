@@ -1,4 +1,7 @@
-# Frontend (react)
+# How to run it?
 
-> > > $ npm i
-> > > $ npm start
+Go to directory that contains frontend files and execute those commands:
+
+
+    $ npm i
+    $ npm start
